@@ -1,0 +1,116 @@
+{
+  "Index": {
+    "title": "Hello world!"
+  },
+  "Navigation": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "blog":"Blog",
+    "contacts": "Contacts"
+  },
+  "Home": {
+    "header_old": "Where Work happens",
+    "header": "Works everywhere you go",
+    "subHeader":"Whatever work means for you, Comporate brings all the pieces and people you need together so you can actually get things done",
+    "getStartedBtn": "Get Started",
+    "featuresBtn": "Features"
+  },
+  "Features": {
+    "header":"Team communication for the 21st century",
+    "dashboardHeader": "Dashboard",
+    "dashboardFirst": "Welcome to your Dashboard, your hub for real-time insights and productivity metrics. From tracking the number of company employees to monitoring project quantity, our intuitive interface provides a comprehensive overview at a glance.",
+    "dashboardSecond":"Stay informed with live updates on fixed assets and leave allocations. Visualize trends with dynamic graphs showcasing paid and unpaid leave, as well as sick day statistics. Make data-driven decisions and optimize your workflow with ease, all from one centralized platform.",
+    "addNewsHeader":"Add News",
+    "addNewsText":"Enhance internal communication and engagement within your company with our News functionality. Enable your employees to contribute and share news, updates, and announcements effortlessly. Foster collaboration and transparency across teams with our intuitive platform. Empower your workforce to be informed and connected like never before.",
+    "messagesHeader":"Messages",
+    "messageText": "Elevate communication within your team with our Direct Messages feature. Seamlessly connect with colleagues, share insights, and collaborate privately. Streamline conversations and foster stronger relationships, all within our intuitive platform. Empower your team to communicate effectively and achieve greater success together.",
+    "calendarHeader":"Calendar",
+    "calendarText":"Stay organized and efficient with our Calendar function. Easily access meeting dates, deadlines, and important events at a glance. Plus, effortlessly add your own plans to personalize your schedule. With our intuitive interface, managing your time has never been easier. Take control of your schedule and maximize productivity with our Calendar feature.",
+    "timesheetHeader": "Timesheet",
+    "timesheetText":"Streamline your project management with our Timesheet page. Easily log work hours and track time spent on each project. Monitor progress and ensure accurate timekeeping with our user-friendly interface. Stay organized and boost productivity by efficiently managing your work time.",
+    "assetsHeader":"Assets",
+    "assetsText": "Manage company resources effortlessly with our Assets page. Add and track items like PCs, tablets, and more. Keep tabs on asset ownership and streamline inventory management. Ensure accountability and organization with ease, all through our intuitive platform.",
+    "tasksHeader":"Tasks",
+    "tasksText":"Stay on top of your workload with our Task page. View all tasks assigned to you and easily create new ones. Our intuitive interface helps you manage your responsibilities efficiently, ensuring nothing falls through the cracks. Boost productivity and keep your projects on track with ease"
+  },
+  "callToActionSection": {
+    "ctaHeader": "Reclaim your workday",
+    "ctaText": "Less email. More productive. Our customers see an average 48.6% reduction in internal email, helping them enjoy a simpler, more pleasant, and more productive work life.",
+    "ctaBtn": "Start now"
+  },
+  "pricingSection": {
+    "header": "Affordable Pricing",
+    "subHeader":"Comporate is a single workspace for your small- to medium-sized company or team.",
+    "priceCardTypeOne":"free",
+    "priceCardPriceOne": "free",
+    "priceCardLengthOne": "Forever!",
+    "priceCardFirstOptinoOne":"Searchable messages up to 10K",
+    "priceCardSecondOptinoOne":"10 apps or service integrations",
+    "priceCardThirdOptinoOne":"5GB total file storage for the team",
+    "priceCardButton":"Get started",
+
+    "priceCardTypeTwo":"STANDARD",
+    "priceCardPriceTwo": "6.67",
+    "priceCardPriceTwoPerUser":"Per user",
+    "priceCardPriceTwoPerUserMonth":"month",
+    "priceCardFirstOptinoTwo":"Unlimited searchable message archives",
+    "priceCardSecondOptinoTwo":"Unlimited apps and service integrations",
+    "priceCardThirdOptinoTwo":"10GB file storage per team member",
+
+    "priceCardTypeThree":"PLUS",
+    "priceCardPriceThree": "12.5",
+    "priceCardFirstOptinoThree":"Everything in Free & Standard, and",
+    "priceCardSecondOptinoThree":"SAML-based single sign-on (SSO)",
+    "priceCardThirdOptinoThree":"Compliance Exports of all messages"
+  },
+  "faqSection": {
+    "header" : "Frequently Asked Questions",
+    "subtitle" : "Got a question? We've got answers. If you have some other questions, contact us using email.",
+    "firstQuestionHeader":"Is this a secure site?",
+    "firstQuestionAnswer":"Absolutely! We work with top payment companies which guarantees your safety and security. All billing information is stored on our payment processing partner which has the most stringent level of certification available in the payments industry.",
+    "secondQuestionHeader":"Can I cancel my subscription?",
+    "secondQuestionAnswer":"You can cancel your subscription anytime in your account. Once the subscription is cancelled, you will not be charged next month. You will continue to have access to your account until your current subscription expires.",
+    "thirdQuestionHeader":"How long are your contracts?",
+    "thirdQuestionAnswer":"Currently, we only offer monthly subscription. You can upgrade or cancel your monthly account at any time with no further obligation.",
+    "fourthQuestionHeader":"Can I update my card details?",
+    "fourthQuestionAnswer":"Yes. Go to the billing section of your dashboard and update your payment information.",
+    "fifthQuestionHeader":"Can I request refund?",
+    "fifthQuestionAnswer":"Unfortunately, not. We do not issue full or partial refunds for any reason.",
+    "sixthQuestionHeader":"Can I try your service for free?",
+    "sixthQuestionAnswer":"Of course! We’re happy to offer a free plan to anyone who wants to try our service."
+  },
+  "newsSubscription": {
+    "header":"Latest news direct to your inbox",
+    "subscribeText":"Subscribe Now",
+    "emailPlaceholder":"Enter Email Address",
+    "buttonText":"Sign up"
+  },
+  "blogSection": {
+    "header" : "Latest Blogs",
+    "subTitle" : "A Lead UX & UI designer based in Canada",
+    "morePosts" : "More Posts"
+  },
+  "contactSection": {
+    "header": "Contact Us",
+    "nameLabel":"Name",
+    "namePlaceholder" : "Enter your name",
+    "emailLabel":"Email address",
+    "emailPlaceholder":"Enter your email",
+    "messageLabel":"Message",
+    "messagePlaceholder":"Enter your message",
+    "submitButton":"Submit"
+  },
+  "footerSection": {
+    "leftHeader" : "We Are Awesome",
+    "leftText" : "We’re a team of experienced designers and developers. We can combine beautiful, modern designs with clean, functional and high-performance code to produce stunning websites.",
+    "allRightReserved" : "All rights reserved",
+
+    "rightHeader" : "Get Started",
+    "rightText" : "Form so, head allowed how found at right, chosen put sad. Copy of field phase offers texts. Great family there first about that.",
+
+    "startTrialButton" : "Start trial",
+    "contactButton" : "Contact"
+  }
+}

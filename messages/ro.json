@@ -1,0 +1,117 @@
+{
+  "Index": {
+    "title": "Hello hulio!"
+  },
+  "Navigation": {
+    "home": "Principal",
+    "features": "Beneficii",
+    "pricing": "Prețuri",
+    "faq": "FAQ",
+    "blog":"Blog",
+    "contacts": "Contacte"
+  },
+  "Home": {
+    "header": "Unde se întâmplă munca",
+    "subHeader": "Indiferent ce înseamnă munca pentru tine, Comporate aduce împreună toate piesele și oamenii de care ai nevoie, astfel încât să poți realiza efectiv lucrurile.",
+    "getStartedBtn": "Începe acum",
+    "featuresBtn": "Beneficii"
+  },
+  "Features": {
+    "header":"Comunicare de echipă pentru secolul 21",
+    "dashboardHeader": "Tabloul de bord",
+    "dashboardFirst": "Bine ați venit la tabloul de bord, centrul dvs. pentru analiza în timp real a valorilor de performanță. Care oferă capabilități de la urmărirea numărului de angajați din compania dvs. până la monitorizarea numărului de proiecte. Rămâneți la curent cu graficele dinamice care arată statisticile privind concediile plătite și fără plată și concediile medicale. Luați decizii bazate pe date și optimizați-vă fluxul de lucru cu ușurință, totul de la o singură platformă centralizată.",
+    "dashboardSecond":"Оставайтесь в курсе событий благодаря актуальным обновлениям по основным активам и распределению отпусков. Визуализируйте тренды с помощью динамических графиков, отображающих оплаченные и неоплаченные отпуска, а также статистику по больничным дням. Принимайте решения на основе данных и оптимизируйте рабочий процесс с лёгкостью, всё это из одной централизованной платформы.",
+    "addNewsHeader":"Știri",
+    "addNewsText": "Îmbunătățiți comunicarea internă în compania dvs. cu funcția Știri. Permiteți angajaților să împărtășească știri, actualizări ale proiectelor și diverse anunțuri. Această caracteristică adaugă       transparență echipei și îmbunătățește înțelegerea generală a proiectului folosind platforma noastră intuitivă. Oferiți-le angajaților tăi posibilitatea de a rămâne informați și conștienți ca niciodată înainte.",
+    "messagesHeader":"Mesaje",
+    "messageText":"Îmbunătățiți comunicarea echipei dvs. cu funcția noastră Mesaje. Conectați-vă cu ușurință cu colegii, împărtășiți idei și colaborați în privat. Eficientizați comunicarea de afaceri și consolidați relațiile cu angajații - totul pe platforma noastră intuitivă. Împuternicește-ți echipa să comunice eficient și să obțină împreună rezultate mai bune.",
+    "calendarHeader":"Calendar",
+    "calendarText":"Rămâneți organizat și cât mai productiv posibil cu funcția Calendar. Accesați cu ușurință datele întâlnirilor, termenele limită ale sarcinilor și evenimentele importante cu un singur clic. Adăugați propriile planuri pentru a vă personaliza programul. Cu interfața noastră intuitivă, gestionarea timpului nu a fost niciodată mai ușoară. Preluați controlul asupra programului dvs. și îmbunătățiți-vă productivitatea cu funcția Calendar.",
+    "timesheetHeader": "Înregistrarea timpului de lucru",
+    "timesheetText": "Simplificați-vă gestionarea proiectelor cu pagina Time Tracking. Înregistrați și urmăriți cu ușurință timpul de lucru petrecut pe fiecare proiect. Urmăriți-vă progresul și mențineți înregistrări precise folosind interfața noastră ușor de utilizat. Rămâneți organizat și creșteți productivitatea gestionându-vă timpul în mod eficient.",
+    "assetsHeader":"Active",
+    "assetsText": "Gestionați-vă resursele companiei fără efort cu pagina noastră de active. Adăugați și urmăriți active precum computere, tablete, rechizite de birou și multe altele. Monitorizați proprietatea asupra activelor și optimizați inventarul.",
+    "tasksHeader":"Obiective",
+    "tasksText":"Rămâneți la curent cu volumul de muncă cu pagina noastră Sarcini. Vizualizați toate sarcinile care vă sunt atribuite și creați cu ușurință altele noi. Interfața noastră intuitivă vă ajută să vă gestionați responsabilitățile în mod eficient, asigurându-vă că nimic nu este lăsat în urmă. Creșteți productivitatea și monitorizați cu ușurință progresul proiectului."
+  },
+  "callToActionSection": {
+    "ctaHeader": "Recuperează-ți ziua de muncă",
+    "ctaText": "Mai puține e-mailuri. Mai multă productivitate. Clienții noștri observă o reducere medie a e-mailurilor interne de 48,6%, ajutându-i să se bucure de o viață profesională mai simplă, mai plăcută și mai productivă.",
+    "ctaBtn": "Începe acum"
+  },
+  "pricingSection": {
+    "header": "Prețuri accesibile",
+    "subHeader":"Comporate este un spațiu de lucru unic pentru compania sau echipa ta de mici și medii dimensiuni.",
+    "priceCardTypeOne":"Gratuit",
+    "priceCardPriceOne": "Gratuit",
+    "priceCardLengthOne": "Pe totdeauna!",
+    "priceCardFirstOptinoOne":"Căutare în mesaje",
+    "priceCardSecondOptinoOne":"10 aplicații sau servicii pentru integrare",
+    "priceCardThirdOptinoOne":"5GB spațiu de stocare pentru echipă",
+    "priceCardButton":"Începe acum",
+
+    "priceCardTypeTwo":"Standard",
+    "priceCardPriceTwo": "6.67",
+    "priceCardPriceTwoPerUser":"pe utilizator",
+    "priceCardPriceTwoPerUserMonth":"lună",
+    "priceCardLengthTwo": "Pe totdeauna!",
+    "priceCardFirstOptinoTwo":"Căutare în mesaje",
+    "priceCardSecondOptinoTwo":"10 aplicații sau servicii pentru integrare",
+    "priceCardThirdOptinoTwo":"5GB spațiu de stocare pentru echipă",
+  
+
+    "priceCardTypeThree":"Plus",
+    "priceCardPriceThree": "12.5",
+    "priceCardFirstOptinoThree":"Totul este gratuit și",
+    "priceCardSecondOptinoThree":"Autentificare unică (SSO) bazată pe SAML",
+    "priceCardThirdOptinoThree":"Exportarea tuturor mesajelor"
+  },
+  "faqSection": {
+    "header" : "Întrebări frecvente",
+    "subtitle" : "Ai o întrebare? Avem răspunsuri. Dacă ai alte întrebări, contactează-ne prin email.",
+    "firstQuestionHeader":"Acest site este sigur pentru achiziții?",
+    "firstQuestionAnswer":"Desigur! Lucrăm cu companii de plată de top, ceea ce garantează siguranța și securitatea dumneavoastră. Toate informațiile de facturare sunt stocate la partenerul nostru de procesare a plăților, care are cel mai strict nivel de certificare disponibil în industria plăților.",
+    "secondQuestionHeader":"Pot să anulez abonamentul meu?",
+    "secondQuestionAnswer":"Puteți anula abonamentul în orice moment în contul dumneavoastră. Odată ce abonamentul este anulat, nu veți fi taxat în luna următoare. Veți continua să aveți acces la contul dumneavoastră până când abonamentul curent expiră.",
+    "thirdQuestionHeader":"Cât durează contractele dumneavoastră?",
+    "thirdQuestionAnswer":"În prezent, oferim doar abonamente lunare. Puteți să vă faceți upgrade sau să anulați contul lunar în orice moment, fără alte obligații suplimentare.",
+    "fourthQuestionHeader":"Pot să îmi actualizez detaliile cardului?",
+    "fourthQuestionAnswer":"Da. Accesați secțiunea de facturare din panoul dumneavoastră de control și actualizați informațiile de plată.",
+    "fifthQuestionHeader":"Pot să solicit rambursarea?",
+    "fifthQuestionAnswer":"Din păcate, nu. Noi nu acordăm rambursări complete sau parțiale din niciun motiv.",
+    "sixthQuestionHeader":"Pot încerca serviciul dumneavoastră gratuit?",
+    "sixthQuestionAnswer":"Desigur! Suntem încântați să oferim un plan gratuit oricui dorește să încerce serviciul nostru."
+  },
+  "newsSubscription": {
+    "header":"Ultimile știri direct în cutia ta poștală.",
+    "subscribeText":"Abonează-te acum",
+    "emailPlaceholder":"Introduceți adresa de email",
+    "buttonText":"Subscrie-te"
+  },
+  "blogSection": {
+    "header" : "Latest Blogs",
+    "subTitle" : "A Lead UX & UI designer based in Canada",
+    "morePosts" : "More Posts"
+  },
+  "contactSection": {
+    "header": "Contactați-ne",
+    "nameLabel":"Nume",
+    "namePlaceholder" : "Introduceți numele dumneavoastră",
+    "emailLabel":"Email",
+    "emailPlaceholder":"Introduceți adresa dumneavoastră de email",
+    "messageLabel":"Mesaj",
+    "messagePlaceholder":"Introduceți mesajul dumneavoastră",
+    "submitButton":"Trimite"
+  },
+  "footerSection": {
+    "leftHeader" : "Suntem uimitori",
+    "leftText" : "Suntem o echipă de designeri și dezvoltatori experimentați. Putem combina designuri moderne și frumoase cu cod curat, funcțional și performant pentru a crea site-uri web uimitoare.",
+    "allRightReserved" : "Toate drepturile rezervate",
+
+    "rightHeader" : "Începeți să utilizați",
+    "rightText" : "Form so, head allowed how found at right, chosen put sad. Copy of field phase offers texts. Great family there first about that.",
+
+    "startTrialButton" : "Începeți perioada de probă",
+    "contactButton" : "Contactați-ne"
+  }
+}
