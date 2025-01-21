@@ -1,5 +1,11 @@
+interface AlertProps {
+    type: string;
+    title:string;
+    text:string;
+}
 
-export default function Alert(props){
+
+export default function Alert(props:AlertProps){
     return (
         <div className={`alert ${props.type} alert-dismissible fade show d-flex align-items-center w-100`} role="alert">
                 {/*alert-success alert-danger */}
