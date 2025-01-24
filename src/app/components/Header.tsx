@@ -39,6 +39,9 @@ export default function Header() {
                             <Link href="#section-features" className="nav-link text-gray-300  px-3 py-2 rounded-md text-sm font-medium">
                                 {t('features')}
                             </Link>
+                            <Link href="#section-clients" className="nav-link text-gray-300  px-3 py-2 rounded-md text-sm font-medium">
+                                {t('clients')}
+                            </Link>
                             <Link href="#section-pricing" className="nav-link text-gray-300  px-3 py-2 rounded-md text-sm font-medium">
                                 {t('pricing')}
                             </Link>

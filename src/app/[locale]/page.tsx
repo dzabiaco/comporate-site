@@ -13,6 +13,7 @@ import Subscribe from "@/app/components/Subscribe";
 import Contact from "@/app/components/Contact";
 import Footer from "@/app/components/Footer";
 import Blog from "../components/Blog/Blog";
+import Clients from "../components/Clients";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <HomeSection/>
         <main className="main-content">
           <FeaturesSection/>
+          <Clients/>
           {/* <Benefits/> */}
           <CTA/>
           <Pricing/>

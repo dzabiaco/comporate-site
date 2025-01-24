@@ -5,6 +5,7 @@
   "Navigation": {
     "home": "Home",
     "features": "Features",
+    "clients": "Clients",
     "pricing": "Pricing",
     "faq": "FAQ",
     "blog":"Blog",
@@ -34,6 +35,9 @@
     "assetsText": "Manage company resources effortlessly with our Assets page. Add and track items like PCs, tablets, and more. Keep tabs on asset ownership and streamline inventory management. Ensure accountability and organization with ease, all through our intuitive platform.",
     "tasksHeader":"Tasks",
     "tasksText":"Stay on top of your workload with our Task page. View all tasks assigned to you and easily create new ones. Our intuitive interface helps you manage your responsibilities efficiently, ensuring nothing falls through the cracks. Boost productivity and keep your projects on track with ease"
+  },
+  "Clients": {
+    "header": "Clients"
   },
   "callToActionSection": {
     "ctaHeader": "Reclaim your workday",
