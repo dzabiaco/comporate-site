@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Dosis:200,400,500,600"); */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Dosis:200,400,500,600");
 
 :root {
     --blue: #50a1ff;
@@ -66,7 +66,8 @@ body {
     line-height: 1.9;
     color: #757575;
     text-align: left;
-    background-color: #fff
+    background-color: #fff;
+    scroll-behavior: smooth;
 }
 
 [tabindex="-1"]:focus {
@@ -163,16 +164,16 @@ sup {
     top: -.5em
 }
 
-a {
+/* a {
     color: #50a1ff;
     text-decoration: none;
     background-color: transparent
-}
+} */
 
-a:hover {
+/* a:hover {
     color: #0478ff;
     text-decoration: underline
-}
+} */
 
 a:not([href]):not([tabindex]) {
     color: inherit;
@@ -2514,7 +2515,7 @@ textarea.form-control.is-invalid {
 .btn {
     display: inline-block;
     font-weight: 600;
-    color: #757575;
+    color: #2563eb;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -2530,16 +2531,21 @@ textarea.form-control.is-invalid {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
 }
 
+#get_started:hover {
+    background-color: #2563eb!important;
+    color:#fff!important;
+}
+
 @media (prefers-reduced-motion: reduce) {
     .btn {
         transition: none
     }
 }
 
-.btn:hover {
+/* .btn:hover {
     color: #757575;
     text-decoration: none
-}
+} */
 
 .btn:focus,
 .btn.focus {
@@ -16753,9 +16759,9 @@ button:focus {
     color: rgba(0, 0, 0, 0.6)
 }
 
-.nav-sidebar a:hover {
+/* .nav-sidebar a:hover {
     color: rgba(0, 0, 0, 0.8)
-}
+} */
 
 .nav-sidebar .nav-header {
     color: #323d47;
@@ -21770,6 +21776,11 @@ body:not(.body-scrolled) .topbar.d-flex~.navbar {
     background-repeat: no-repeat;
     padding-top: 146px;
     padding-bottom: 90px
+}
+
+.header a:hover {
+    background-color: #fff;
+    color: #2563EB!important;
 }
 
 .header>.container,

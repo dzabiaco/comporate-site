@@ -36,18 +36,28 @@ interface FeatureProps {
       }, []);
 
     return (
-        <div className="row gap-y align-items-center" ref={elementRef}>
-          <div className={`col-md-4 ml-auto`}>
-            <h4>{featureHeader}</h4>
-            <p>{featureFirstParagraph}</p>
-            <p>{featureSecondPararaf}</p>
-          </div>
+      <div className="flex flex-col md:flex-row items-center gap-8 p-8 border rounded-lg shadow-lg bg-white">
+    {/* Text Section */}
+    <div className={`md:w-1/3 text-center md:text-left ${imageFirst ? 'md:order-last' : ''}`}>
+      <h4 className="flex items-center justify-center md:justify-center text-center text-3xl font-bold text-gray-900">
+        {/* <FaInfoCircle className="mr-2 text-blue-500" /> */}
+         {featureHeader}
+      </h4>
+      <p className="text-lg text-gray-600 mt-4">{featureFirstParagraph}</p>
+      <p className="text-lg text-gray-600 mt-2">{featureSecondPararaf}</p>
+    </div>
 
-          <div className={`${imageFirst ? 'col-md-8 order-md-first' : 'col-md-8'}`} style={{ width: "100%", height: "100%" }}>
-            {/* <Image src="/static/assets/img/vector/10.png" width={400} height={300} alt="..." /> */}
-            <Image src={imagePath} width={1000} height={1000} alt="..." />
-          </div>
-        </div>
+    {/* Image Section */}
+    <div className="md:w-2/3 flex justify-center">
+      <Image
+        src={imagePath}
+        width={800}
+        height={500}
+        alt="Feature Image"
+        className="rounded-xl shadow-lg"
+      />
+    </div>
+  </div>
     );
   }
 

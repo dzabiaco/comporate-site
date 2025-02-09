@@ -24,7 +24,7 @@ export default function BlogItem(props:any){
                         <span className="date">02 Mar</span>
                         <span className="meta">Design</span>
                     </div>
-                    <h5><a href="@/components/Blog/BLog#">Make your Marketing website</a></h5>
+                    <h5><a href="#">Make your Marketing website</a></h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     {/* <div className="btn-grid">
                         <Link className="m-btn-link" href="#">Read More</Link>

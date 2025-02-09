@@ -18,7 +18,6 @@ import Clients from "../components/Clients";
 export default function Home() {
   return (
       <Fragment>
-        <Header/>
         <HomeSection/>
         <main className="main-content">
           <FeaturesSection/>

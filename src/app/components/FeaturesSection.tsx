@@ -38,54 +38,55 @@ export default function FeaturesSection() {
           <hr />
         </header>
 
-    
-        <Feature imageFirst={true} featureHeader={t('dashboardHeader')}
-          featureFirstParagraph={t('dashboardFirst')}
-          featureSecondPararaf=''
-          imagePath="/static/assets/img/benifits/dashboard.png"/>
+        <div className='flex flex-wrap'>
+          <Feature imageFirst={true} featureHeader={t('dashboardHeader')}
+            featureFirstParagraph={t('dashboardFirst')}
+            featureSecondPararaf=''
+            imagePath="/static/assets/img/benifits/dashboard.png" />
 
-        <hr className="my-8" />
+          <hr className="my-8" />
 
-        <Feature imageFirst={false} featureHeader={t('addNewsHeader')}
-          featureFirstParagraph={t('addNewsText')}
-          featureSecondPararaf=''
-          imagePath="/static/assets/img/benifits/news.png"/>
+          <Feature imageFirst={false} featureHeader={t('addNewsHeader')}
+            featureFirstParagraph={t('addNewsText')}
+            featureSecondPararaf=''
+            imagePath="/static/assets/img/benifits/news.png" />
 
-        <hr className="my-8" />
+          <hr className="my-8" />
 
-        <Feature imageFirst={true} featureHeader={t('messagesHeader')}
-          featureFirstParagraph={t('messageText')}
-          featureSecondPararaf=''
-          imagePath="/static/assets/img/benifits/chat.png"/>
+          <Feature imageFirst={true} featureHeader={t('messagesHeader')}
+            featureFirstParagraph={t('messageText')}
+            featureSecondPararaf=''
+            imagePath="/static/assets/img/benifits/chat.png" />
 
-        <hr className="my-8" />
+          <hr className="my-8" />
 
-        <Feature imageFirst={false} featureHeader={t('calendarHeader')}
-          featureFirstParagraph={t('calendarText')}
-          featureSecondPararaf=''
-          imagePath="/static/assets/img/benifits/calendar.png"/>
+          <Feature imageFirst={false} featureHeader={t('calendarHeader')}
+            featureFirstParagraph={t('calendarText')}
+            featureSecondPararaf=''
+            imagePath="/static/assets/img/benifits/calendar.png" />
 
 
-        <hr className="my-8" />
+          <hr className="my-8" />
 
-        <Feature imageFirst={true} featureHeader={t('timesheetHeader')}
-          featureFirstParagraph={t('timesheetText')}
-          featureSecondPararaf=''
-          imagePath="/static/assets/img/benifits/timesheets.png"/>
+          <Feature imageFirst={true} featureHeader={t('timesheetHeader')}
+            featureFirstParagraph={t('timesheetText')}
+            featureSecondPararaf=''
+            imagePath="/static/assets/img/benifits/timesheets.png" />
 
-        <hr className="my-8" />
+          <hr className="my-8" />
 
-        <Feature imageFirst={false} featureHeader={t('assetsHeader')}
-          featureFirstParagraph={t('assetsText')}
-          featureSecondPararaf=''
-          imagePath="/static/assets/img/benifits/assets.png"/>
+          <Feature imageFirst={false} featureHeader={t('assetsHeader')}
+            featureFirstParagraph={t('assetsText')}
+            featureSecondPararaf=''
+            imagePath="/static/assets/img/benifits/assets.png" />
 
-        <hr className="my-8" />
+          <hr className="my-8" />
 
-        <Feature imageFirst={true} featureHeader={t('tasksHeader')}
-          featureFirstParagraph={t('tasksText')}
-          featureSecondPararaf=''
-          imagePath="/static/assets/img/benifits/assets.png"/>
+          <Feature imageFirst={true} featureHeader={t('tasksHeader')}
+            featureFirstParagraph={t('tasksText')}
+            featureSecondPararaf=''
+            imagePath="/static/assets/img/benifits/assets.png" />
+        </div>
 
       </div>
     </section>

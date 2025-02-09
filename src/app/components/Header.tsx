@@ -26,35 +26,35 @@ export default function Header() {
                     <div className="flex items-center">
                         <div className="flex-shrink-0">
                             <Link href="/" className="font-bold text-xl flex aling-center justify-center" style={{color:"#323d47"}}>
-                                <img src="/icons/favicon-32x32.png" alt="" />
+                                <img src="/icons/favicon-32x32.png" alt="Logo" />
                                 Comporate
                             </Link>
                         </div>
                     </div>
                     <div className="hidden md:block">
                         <div className="ml-10 flex items-baseline space-x-4">
-                            <Link href="/" className="text-gray-300 nav-link  px-3 py-2 rounded-md text-sm font-medium">
+                            <Link href="/" className="text-lg text-gray-300 nav-link px-3 py-2 rounded-md text-sm font-medium">
                                 {t('home')}
                             </Link>
-                            <Link href="#section-features" className="nav-link text-gray-300  px-3 py-2 rounded-md text-sm font-medium">
+                            <Link href="#section-features" className="text-lg nav-link text-gray-300  px-3 py-2 rounded-md text-sm font-medium">
                                 {t('features')}
                             </Link>
-                            <Link href="#section-clients" className="nav-link text-gray-300  px-3 py-2 rounded-md text-sm font-medium">
+                            <Link href="#section-clients" className="text-lg nav-link text-gray-300  px-3 py-2 rounded-md text-sm font-medium">
                                 {t('clients')}
                             </Link>
-                            <Link href="#section-pricing" className="nav-link text-gray-300  px-3 py-2 rounded-md text-sm font-medium">
+                            <Link href="#section-pricing" className="text-lg nav-link text-gray-300  px-3 py-2 rounded-md text-sm font-medium">
                                 {t('pricing')}
                             </Link>
-                            <Link href="#section-faq" className="nav-link text-gray-300  px-3 py-2 rounded-md text-sm font-medium">
+                            <Link href="#section-faq" className="text-lg nav-link text-gray-300  px-3 py-2 rounded-md text-sm font-medium">
                                 {t('faq')}
                             </Link>
-                            <Link href="#blog" className="nav-link text-gray-300  px-3 py-2 rounded-md text-sm font-medium">
+                            <Link href="#blog" className="text-lg nav-link text-gray-300  px-3 py-2 rounded-md text-sm font-medium">
                                 {t('blog')}
                             </Link>
-                            <Link href="#contact" className="nav-link text-gray-300 px-3 py-2 rounded-md text-sm font-medium">
+                            <Link href="#contact" className="text-lg nav-link text-gray-300 px-3 py-2 rounded-md text-sm font-medium">
                                 {t('contacts')}
                             </Link>
-                            <LocaleSwitcher />
+                            <LocaleSwitcher/>
                         </div>
                     </div>
                     {/* Mobile menu button */}
@@ -109,6 +109,8 @@ export default function Header() {
                         {t('contacts')}
                     </Link>
                     {/* Add more links as needed */}
+
+                    <LocaleSwitcher/>
                 </div>
             </div>
         </nav>

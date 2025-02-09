@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 export default function Subscribe(){
   const t = useTranslations("newsSubscription");
     return (
-        <section className="section py-10" style={{ backgroundImage: 'url(./static/assets/img/bg/4.jpg)' }}>
+        <section className="section py-10" style={{ backgroundImage: 'url(../../static/assets/img/bg/4.jpg)' }}>
       <div className="container">
         <div className="row">
           <div className="col-md-8 col-xl-6 mx-auto">

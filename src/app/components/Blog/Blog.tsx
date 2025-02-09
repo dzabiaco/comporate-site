@@ -60,7 +60,7 @@ export default function Blog() {
                 
                 <div className="flex flex-wrap">
                     {allPosts.slice(0, visiblePosts).map((post) => (
-                        <BlogItem 
+                        <BlogItem key={post.id}
                             id={post.id}
                             title={post.title}
                         />
