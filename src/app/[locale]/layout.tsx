@@ -39,7 +39,6 @@ export default function RootLayout({
         <link rel="icon" href="/icons/android-chrome-192x192.png" type="image/png" sizes="32x32" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
-        {/* <link rel="stylesheet" href="../../../static/plugin/bootstrap.min.css"/> */}
         <link rel="stylesheet" href="../../static/assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="../../static/assets/css/page.min.css" />
         <link rel="stylesheet" href="../../static/assets/css/style.css" />
@@ -48,7 +47,6 @@ export default function RootLayout({
       {/* className={inter.className} */}
       <body className={inter.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <Header/>
           {children}
         </NextIntlClientProvider>
       </body>

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import {useTranslations} from "next-intl";
-import LocaleSwitcher from "@/app/components/LocaleSwitcher";
+import LocaleSwitcher from "@/src/app/components/LocaleSwitcher";
 
 export default function TheHeader(){
     const t = useTranslations("Navigation");

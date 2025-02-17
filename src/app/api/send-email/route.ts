@@ -3,11 +3,6 @@ const nodemailer = require('nodemailer');
 // import nodemailer from "nodemailer";
 
 export async function POST(req: NextRequest) {
-
-    // const email = req?.body?.email;
-    // const name = req?.body?.name;
-    // const subject = req?.body?.subject;
-    // const message = req?.body?.message;
     const {email, subject, message} = await req.json();
 
     try {

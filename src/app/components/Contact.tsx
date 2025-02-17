@@ -1,6 +1,6 @@
 "use client"
 
-import Alert from "@/app/components/Alert";
+import Alert from "@/src/app/components/Alert";
 import React, {useRef, useEffect, FormEvent, useState } from "react";
 import { useTranslations } from "next-intl";
 
