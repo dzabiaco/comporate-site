@@ -9,7 +9,7 @@
     "lint": "next lint",
     "db-push": "npx prisma db push",
     "studio": "npx prisma studio",
-    "generate-db":"npx prisma generate"
+    "generate-db": "npx prisma generate"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
