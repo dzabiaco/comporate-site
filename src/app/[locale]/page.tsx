@@ -2,7 +2,6 @@ import { Html, Head, Main, NextScript } from "next/document";
 import Header from "@/src/app/components/Header";
 import HomeSection from "@/src/app/components/HomeSection";
 import {Fragment} from "react";
-import {useTranslations} from "next-intl";
 import TheHeader from "@/src/app/components/TheHeader";
 import FeaturesSection from "@/src/app/components/FeaturesSection";
 import Benefits from "@/src/app/components/Benefits";
